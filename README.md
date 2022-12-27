@@ -1,9 +1,9 @@
 # playstore-scraping
 
-#### Scraping reviews for category in play store using selenium and reviews descriptive statistics for business insight using knime
+#### Scraping reviews for category in play store using selenium and reviews descriptive statistics for business insight using Knime
 
-On play.google.com is not possible to search app for categories (24 Dec 2022), so it is not possible to scrape on the website directly to gather data for a specific category.
-The python script on the ipynotebook creates a dataset scraped using Selenium and Beautiful Soup, first gathering data from one of the most reliable websites for app store world charts, APPlyzer 2 and, then, using the id of the app to scrape reviews on play store
+On play.google.com is not possible to search apps for categories (24 Dec 2022), so it is not possible to scrape on the website directly to gather data for a specific category.
+The python script on the ipynotebook creates a dataset scraped using Selenium and Beautiful Soup, first gathering data from one of the most reliable websites for play store world charts, APPlyzer 2 and, then, using the id of the top 150 apps for a selected category to scrape reviews on play store
 
 For the optimal evaluation of the success and failure parameters of
 an application, it was carefully selected to download only 1-star, 3-star, and 5-star ratings.
